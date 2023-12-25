@@ -1,5 +1,5 @@
 # Coba Github Action
 
-[![buat file html](https://github.com/Lyandiff/Coba-Github-Action/actions/workflows/print_repo.yml/badge.svg?branch=main)](https://github.com/Lyandiff/Coba-Github-Action/actions/workflows/print_repo.yml)
+[![Deploy Mentahan](https://github.com/Lyandiff/Coba-Github-Action/actions/workflows/deploy_raw.yml/badge.svg)](https://github.com/Lyandiff/Coba-Github-Action/actions/workflows/deploy_raw.yml)
 
 repositori coba2 fitur Github Actions

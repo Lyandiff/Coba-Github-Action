@@ -12,7 +12,8 @@ export default function About() {
         Lanie Sinalia yang merupakan singkatan dari &ldquo;<strong>Lan</strong>d
         <strong>i</strong>ng Pag<strong>e</strong> using ReactJS{" "}
         <strong>Sin</strong>gle P<strong>a</strong>ge App
-        <strong>li</strong>c<strong>a</strong>tion&rdquo; yaitu suatu halaman web 
+        <strong>li</strong>c<strong>a</strong>tion&rdquo; yaitu suatu halaman
+        web
       </p>
     </>
   );

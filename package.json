@@ -7,7 +7,7 @@
     "start": "echo \"Silahkan baca README.md terlebih dahulu\"",
     "build": "webpack --mode production",
     "dev": "webpack serve --mode development",
-    "deploy": "npm run build && gh-pages -d dist/Lanie",
+    "deploy": "npm run build -- --env REPO_NAME=Coba-Github-Action && gh-pages -d dist -b deploy",
     "count": "git ls-files | find \"\" /v /c",
     "remove": "rmdir /s /q dist",
     "presize": "For /F \"tokens=3\" %A In ('DIR /a /-c /s dist ^| FINDSTR /C:\" bytes\" ^| FINDSTR /V /C:\" bytes free\"') Do (Set \"lastline=%A\")",
