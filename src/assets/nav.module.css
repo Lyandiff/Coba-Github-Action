@@ -1,0 +1,101 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+  position: sticky;
+  top: 0px;
+  background-color: var(--backColor2);
+}
+
+/* .navbar div {
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+} */
+
+.navbar ul {
+  /* background-color: var(--backColor2); */
+  background-image: linear-gradient(
+    to right,
+    rgba(32, 33, 36, 1) 0%,
+    rgba(32, 33, 36, 0.9) 100%
+  );
+  position: fixed;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 200px;
+  /* opacity: 90%; */
+  padding: 0;
+}
+
+.navbar ul li,
+.navbar h1 {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  width: 100%;
+  font-size: 1.5em;
+  /* color: var(--primary); */
+}
+
+/* .navbar a span {
+  margin-right: 10px;
+  gap: 10px;
+} */
+
+.navbar label {
+  font-size: 1em;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar span {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.navbar h1 {
+  cursor: pointer;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  background: linear-gradient(to bottom left, var(--primary), var(--accent));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* -webkit-text-stroke: 1px #ffffff ; */
+}
+
+.active {
+  color: var(--accent);
+  /* text-decoration: underline; */
+  /* color: grey; */
+}
+
+.link {
+  color: var(--primary);
+}
+
+.link:hover {
+  color: var(--accent);
+}
+
+/* ------------------------------ */
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
