@@ -1,0 +1,150 @@
+:root {
+  --foreColor: #d6d6d7;
+  --backColor: #323639;
+  --backColor2: #202124;
+  --primary: #00ced1;
+  --accent: #008b8b;
+}
+
+[data-theme="dark"] {
+  --foreColor: #d6d6d7;
+  --backColor: #323639;
+  --backColor2: #202124;
+  --primary: #00ced1;
+  --accent: #008b8b;
+}
+
+* {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Oxygen", sans-serif;
+}
+
+#JGXXi {
+  font-family: "Poppins", sans-serif;
+  color: var(--foreColor);
+  background-image: linear-gradient(
+    to bottom right,
+    var(--backColor),
+    var(--backColor2)
+  );
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+}
+
+
+.yw0_i {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+  position: sticky;
+  top: 0px;
+  background-color: var(--backColor2);
+}
+
+/* .navbar div {
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+} */
+
+.yw0_i ul {
+  /* background-color: var(--backColor2); */
+  background-image: linear-gradient(
+    to right,
+    rgba(32, 33, 36, 1) 0%,
+    rgba(32, 33, 36, 0.9) 100%
+  );
+  position: fixed;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 200px;
+  /* opacity: 90%; */
+  padding: 0;
+}
+
+.yw0_i ul li,
+.yw0_i h1 {
+  display: flex;
+  align-items: center;
+}
+
+.yw0_i ul li a {
+  text-decoration: none;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  width: 100%;
+  font-size: 1.5em;
+  /* color: var(--primary); */
+}
+
+/* .navbar a span {
+  margin-right: 10px;
+  gap: 10px;
+} */
+
+.yw0_i label {
+  font-size: 1em;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.yw0_i span {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.yw0_i h1 {
+  cursor: pointer;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  background: linear-gradient(to bottom left, var(--primary), var(--accent));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* -webkit-text-stroke: 1px #ffffff ; */
+}
+
+.zpuny {
+  color: var(--accent);
+  /* text-decoration: underline; */
+  /* color: grey; */
+}
+
+.A1kG1 {
+  color: var(--primary);
+}
+
+.A1kG1:hover {
+  color: var(--accent);
+}
+
+/* ------------------------------ */
+
+.FSx0W {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.FQxbH {
+  position: absolute;
+  width: 100%;
+  background-color: var(--backColor2);
+  color: white;
+  text-align: center;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
