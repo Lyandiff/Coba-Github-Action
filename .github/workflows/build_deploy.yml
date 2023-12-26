@@ -1,4 +1,4 @@
-name: Deploy Mentahan
+name: Deploy (Build dulu)
 
 on:
   workflow_dispatch:
