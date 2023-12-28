@@ -34,8 +34,10 @@ module.exports = env => {
             ? { from: "public", to: REPO_NAME }
             : { from: "public" },
           // {
-          //   from: ".github\\workflows\\deploy_jadi.yml",
-          //   to: (REPO_NAME && REPO_DIST ? `${REPO_NAME}/` : "") + ".github/workflows",
+          //   from: ".github\\workflows\\direct_deploy.yml",
+          //   to:
+          //     (REPO_NAME && REPO_DIST ? `${REPO_NAME}/` : "") +
+          //     ".github/workflows",
           // },
         ],
       }),

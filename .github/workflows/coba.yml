@@ -1,0 +1,23 @@
+name: Coba Output
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Coba:
+    if: github.ref == 'refs/heads/main' && github.actor == 'Lyandiff'
+    runs-on: ubuntu-latest
+    outputs:
+      output1: ${{ steps.out1.outputs.test }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - name: Jalanin coba.js
+        run: node coba.js
+      - name: taro ke output
+        id: out1
+        run: echo "test=$(node coba.js)" >> "$GITHUB_OUTPUT"
