@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.ref == 'refs/heads/deploy' && github.actor == 'Lyandiff'
+    if: github.ref == 'refs/heads/coba1' && github.actor == 'Lyandiff'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
